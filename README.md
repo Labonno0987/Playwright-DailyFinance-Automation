@@ -5,8 +5,8 @@ This project demonstrates UI automation for the [Daily Finance](https://dailyfin
 
 The test cases include **positive and negative** scenarios for:
 
-- User Registration 
-- Login and Authentication 
+- User Registration and Authentication
+- Login  
 - Adding and Managing Items
 - Profile Update
 - Password Reset
