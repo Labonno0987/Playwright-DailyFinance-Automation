@@ -1,7 +1,7 @@
-# UI Automation using Selenium & TestNG
+# Automated UI Testing with Playwright and JavaScript
 ---
 ##  Description
-This project demonstrates UI automation for the [Daily Finance](https://dailyfinance.roadtocareer.net/) web application using Playwright and JavaScript, following the Page Object Model (POM) design pattern.The automation covers user journey — from registration to password reset — along with validations using both UI assertions and mail verification techniques. The test scenarios were designed to mimic real-life user interactions, ensuring both functionality and reliability of the platform.
+This project demonstrates UI automation for the [Daily Finance](https://dailyfinance.roadtocareer.net/) web application using Playwright and JavaScript, following the Page Object Model (POM) design pattern.The automation covers user journey — from registration to password reset — along with validations using both UI assertions and mail verification techniques. The test scenarios were designed to mimic real-life user interactions, ensuring both functionality and reliability of the platform. The project is also integrated with Allure Reporting for detailed test execution insights.
 
 The test cases include **positive and negative** scenarios for:
 
@@ -11,7 +11,6 @@ The test cases include **positive and negative** scenarios for:
 - Profile Update
 - Password Reset
 
- The project is also integrated with Allure Reporting for detailed test execution insights.
 ---
  ## Technology Stack
 
@@ -27,16 +26,16 @@ The test cases include **positive and negative** scenarios for:
 ---
 ## How to Run the Project
 
-1. Install Node.js and VS Code
-2. Clone the repository
-- ```git clone https://github.com/Labonno0987/Playwright-DailyFinance-Automation```
-3. Import the project into VS Code and ensure all dependencies
+- Install Node.js and VS Code
+- Clone the repository
+      - ```git clone https://github.com/Labonno0987/Playwright-DailyFinance-Automation```
+- Import the project into VS Code and ensure all dependencies
 - Run ```npm install``` to install required packages
-4. Run tests:
-- ```npx playwright test``` or use VS Code Run
-5. Generate Allure report:
-- ```allure generate allure-results --clean -o allure-report```
-- ```allure open allure-report```
+- Run tests:
+     - ```npx playwright test``` or use VS Code Run
+- Generate Allure report:
+     - ```allure generate allure-results --clean -o allure-report```
+     - ```allure open allure-report```
 
  ## Test Case Link
    - [Click here for Positive & Negative Test cases](https://docs.google.com/spreadsheets/d/1S3ZMvQnXH-0cfEFfN8qg_csBsF0gup9f/edit?usp=drive_link&ouid=106851050293382559720&rtpof=true&sd=true)
